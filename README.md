@@ -1,7 +1,7 @@
 Purpose
 ========
 
-This tutorial is an easy way to get started using [Spock Framework](http://www.spockframework.org). You will learn about:
+This tutorial is an easy way to get started using [Spock Framework](http://spockframework.github.io/spock/docs/1.0/index.html). You will learn about:
 
 * The basic forms of Spock Tests
 * Spock's mocking framework
@@ -10,7 +10,7 @@ Prerequisites
 ==============
 * Know Java, and don't be scared by Groovy (its learning curve is flat)
 * Be aware of what makes a [good unit test](http://stackoverflow.com/questions/61400/what-makes-a-good-unit-test)
-* Have a look at the [Spock reference documentation](http://docs.spockframework.org/en/latest/) and keep it handy
+* Have a look at the [Spock reference documentation](http://spockframework.github.io/spock/docs/1.0/index.html) and keep it handy
 
 Steps for you to take
 ======================
@@ -24,7 +24,7 @@ To run what you have developed, cd to the project-root directory and type:
 
 *After* that, if you want to check your progress on branch coverage, run:
 
-	./gradlew testCoberturaReport
+	./gradlew cobertura
 
 Open the report in your browser: build/reports/cobertura/index.html
 
