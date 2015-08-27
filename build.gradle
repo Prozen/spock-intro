@@ -28,8 +28,8 @@ configurations {
 }
 
 dependencies {
-	groovy "org.codehaus.groovy:groovy-all:1.8.8"
-	testCompile "org.spockframework:spock-core:0.7-groovy-1.8" 
+	groovy "org.codehaus.groovy:groovy-all:2.4.1"
+	testCompile "org.spockframework:spock-core:1.0-groovy-2.4" 
 	
 	compile('org.slf4j:slf4j-api:1.6.2')
 	testRuntime('org.slf4j:jcl-over-slf4j:1.6.2')
